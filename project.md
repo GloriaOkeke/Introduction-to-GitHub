@@ -151,4 +151,4 @@ Here's a Quick Summary of all you learned in this article:
 - Learned about GitHub and Why it is Popular
 - Learned Git vs. GitHub and GitHub Desktop vs. GitHub CLI.
 - How to clone, commit and push change using GitHub CLI
-- How to Create a simple pull request on GitHub.
+- How to create a simple pull request on GitHub.
