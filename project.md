@@ -5,9 +5,9 @@
 ### Why GitHub?
 ### Git vs. GitHub
 ### GitHub Desktop vs. GitHub CLI
-### How to Clone on GitHub
-### How to Commit Changes 
-### How to Make a Pull Request
+### Cloning: How To Clone on GitHub 
+### Commit: How to Commit Changes on GitHub
+### Pull Request; How to Create Pull Request
 ## Conclusion
 
 ## Introduction
@@ -26,13 +26,9 @@ GitHub is owned by Microsoft and is currently the world's largest host of source
 Developers, companies, and almost everyone working online use Git for some reasons:
 
 - GitHub allows a large group of persons to work simultaneously on a single project, thus speeding up production.
-  
 - GitHub reduces the possibility of duplicate or conflicting work through various features and checks on the platform.
-
 - Changes are not lost on GitHub; developers can quickly revert to previous project versions if needed.
-
 - GitHub offers vital DevOps features that businesses and organizations of all scales required.
-
 - Non-coders can use GitHub to create, edit, and update website content.
 
 ## Git vs. GitHub
@@ -67,9 +63,7 @@ While GitHub is:
 **GitHub Desktop** is a platform that enables you to connect with GitHub using a **GUI**(Graphical User Interface). With GitHub Desktop, you can complete most Git commands from the desktop, such as push, pull, and clone for remote repositories, committing changes and creating pull requests.
 
 Conversely, **GitHub CLI** is an open-source tool that allows you to interact with GitHub from the **Command line** on your computer instead of the GUI. 
-GitHub CLI enables push, commit, clone, and pull requests, just as the GitHub Desktop.
-
-GitHub CLI is way better, has some extra features, and is preferred by most people to the GitHub Desktop. 
+GitHub CLI enables push, commit, clone, pull requests, and some extra functionalities.
 
 Though GitHub Desktop can be used for simple applications and some intermediate tasks, most people prefer GitHub CLI because of the extra features and efficiency. 
 
@@ -77,7 +71,7 @@ GitHub Desktop also requires a lengthy installation and set-up process, but almo
 
 There is much more power and flexibility when using the command line on various software technologies. 
 
-Now, let's move over to how to carry out various operations on GitHub, like Cloning, Committing changes, and Creating Pull Requests. 
+**Now, let's move over to how to carry out various operations on GitHub, like Cloning, Committing changes, and Creating Pull Requests.** 
 
 *We will be using the GitHub CLI for illustration.*
 
@@ -89,13 +83,16 @@ A clone is a full duplicate of a repository containing all logging and versions 
 2. Navigate to the GitHub repository that you want to clone.
 3. Click "Code" 
 4. Copy the URL shown
+
 ![illustration](images/Screen%20Shot%202022-10-08%20at%2010.43.06%20AM.png)
 
 5. Open “Terminal” 
 6. Navigate to the particular directory where you want the cloned file to move.
 7. Type *git clone {the URL you copied earlier}*
 8. Tap “enter” on your keyboard to create your local clone.
+
 ![illustration](images/Screen%20Shot%202022-10-08%20at%2010.44.55%20AM.png)
+
 *You successfully Cloned the GitHub Repository🚀*
 
 ## Commit: How to Commit Changes on GitHub
@@ -107,17 +104,19 @@ Each commit has a corresponding commit message describing why a particular chang
 ### How to Commit Changes on GitHub
 The steps here will guide you through the process of committing a change on GitHub. 
 
-**First,** it is advised you change the file branch and avoid working directly on the main branch before committing a change. This helps arrange different features in separate branches and secure the main branch from potential bugs.
+**Note:** it is advised you change the file branch and avoid working directly on the main branch before committing a change. This helps arrange different features in separate branches and secure the main branch from potential bugs.
 
+### Steps:
 1. Open the file (contactpage.html) on vscode.
 2. Change the file branch by typing the command:
 *git checkout -b {branchname}*
 
-That done, continue to commit change:
+   **That done, continue to commit change:**
 
 3. Go back to the file, and edit whatever you want; code, syntax, etc.
 4. Type *git add .* on the terminal to stage changes
 5. Type *git commit -m "commit message"* 
+   
 ![illustration](images/Screen%20Shot%202022-10-08%20at%2011.20.41%20AM.png)
 
 The message at the end of the commit should be concise and clearly describe the change you just made- perhaps you added a new feature or fixed a typo or bug. 
@@ -131,16 +130,16 @@ These changes will be made only to the “contactpage.html” file on the new br
 ## Pull Request; How to Create Pull Request
 After committing a change, it’s time to make the pull request.
 
-A pull request is a way to propose changes and request that the repository owner review, pull in, and merge your contribution into their branch. 
-
-Making a pull request lets the owner review the code and ensure it won’t affect the original project before accepting it to the main branch. 
+A pull request is a way to propose changes and request that the repository owner review, pull in, and merge your contribution into their branch. Making a pull request lets the owner review the code and ensure it won’t affect the original project before accepting it to the main branch. 
 ### Steps:
 1. Click the “Compare & pull request” button on the repository you committed a change.
+
 ![illustration](images/Screen%20Shot%202022-10-08%20at%2011.32.43%20AM.png)
 
 2. Check the changes and make sure they're what you want to submit.
 3. Add a comment describing the change
 4. Click "Create pull request."
+
 ![illustration](images/Screen%20Shot%202022-10-08%20at%2011.33.40%20AM.png)
 
 *You successfully created a Pull Request🚀*
